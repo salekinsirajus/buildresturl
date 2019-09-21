@@ -1,5 +1,5 @@
-from urlbuilder import (build_url, build_hostname, build_params,
-                        build_resource_locator)
+from resturlparse import (build_url, build_hostname, build_params,
+                          build_resource_locator)
 import pytest
 
 
