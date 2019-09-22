@@ -1,14 +1,14 @@
-# resturlparse
+# Build REST URL
 Intuitive REST API URL formulation.
 
 Building a URL for a rest API can get annoying. This library provides a function
-to easily parse a URL.
+to easily build a URL.
 
 ## How To
 Let's take a look at a couple examples.
 
 ```
->>> from resturlparse import build_url
+>>> from buildresturl import build_url
 >>> build_url("https://api.stipe.com/v1", ("customers",), {"limit": 3})
 'https://api.stipe.com/v1/customers?limit=3'
 

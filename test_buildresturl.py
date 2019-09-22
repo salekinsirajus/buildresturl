@@ -1,4 +1,4 @@
-from resturlparse import (build_url, build_hostname, build_params,
+from buildresturl import (build_url, build_hostname, build_params,
                           build_resource_locator)
 import pytest
 
