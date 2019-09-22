@@ -7,7 +7,8 @@ to easily build a URL.
 ## How To
 Let's take a look at a couple examples.
 
-```
+
+```python
 >>> from buildresturl import build_url
 >>> build_url("https://api.stipe.com/v1", ("customers",), {"limit": 3})
 'https://api.stipe.com/v1/customers?limit=3'
